@@ -1,0 +1,40 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: 'Palanquin Dark', sans-serif;
+  text-align: center;
+}
+
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+h1 {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
+
+h1 span {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}
+
+.sign-up{
+   position: absolute;
+}
