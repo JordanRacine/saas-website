@@ -14,9 +14,20 @@ html {
   text-align: center;
 }
 
+.logo {
+  width: 6rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    text-align: right;
+}
+
 .image {
    position: relative;
-   width: 100%; /* for IE 6 */
+   width: 100%;
 }
 
 h1 {
@@ -30,11 +41,21 @@ h1 span {
    color: white;
    font: bold 24px/45px Helvetica, Sans-Serif;
    letter-spacing: -1px;
-   background: rgb(0, 0, 0); /* fallback color */
+   background: rgb(0, 0, 0);
    background: rgba(0, 0, 0, 0.7);
    padding: 10px;
 }
 
 .sign-up{
    position: absolute;
+}
+
+.button1 {
+  background-color: #e7e7e7;
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
 }
