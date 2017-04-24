@@ -25,6 +25,36 @@ ul {
     text-align: right;
 }
 
+header {
+  text-align: center;
+  background-color: #e2e2e2;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+li a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+a:active {
+  background-color: #0074d9;
+}
+
+li:first-child a {
+  background-color: #0074d9;
+  color: #fff;
+  text-decoration: none;
+  padding: .65rem;
+}
+
 .image {
    position: relative;
    width: 100%;
