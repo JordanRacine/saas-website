@@ -22,10 +22,6 @@ html {
   width: 6rem;
 }
 
-body {
-  background-image: url("../images/camera.jpg") no-repeat center center fixed;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
