@@ -22,6 +22,13 @@ html {
   width: 6rem;
 }
 
+.pricing {
+  background-color: #226863;
+  border-radius: 10px;
+  color: #fff;
+  padding: 2em;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -34,8 +41,49 @@ header {
   background-color: #e2e2e2;
 }
 
+header nav li, header nav a {
+color: #000;
+display: inline-block;
+text-decoration: none;
+}
+
+header nav a:hover {
+color: #226863;
+}
+
+.nav-register:hover {
+background-color: #34968f;
+color: #fff;
+}
+
+.logo {
+height: 8em;
+}
+
+.nav-register {
+color: #fff;
+background-color: #4fbac1;
+border-radius: 8px;
+padding: .5em;
+}
+
+@media only screen and (min-width: 38em) {
+
 footer {
   background-color: #E8E8E8;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 4em;
+}
+
+.footer {
+  min-height: 100%;
+}
+
+footer li, footer a {
+  text-decoration: none;
+  color: #000;
 }
 
 ul {
@@ -190,4 +238,24 @@ h1 span {
 
 .border-r-5 {
   border-radius: 5px;
+}
+
+table {
+  min-width: 35em;
+}
+
+tr,
+td,
+th {
+  vertical-align: middle;
+}
+
+tbody tr {
+  height: 30px;
+}
+
+@media only screen and (min-width: 60em) {
+
+.table-wrapper {
+  overflow: visible;
 }
