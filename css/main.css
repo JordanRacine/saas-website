@@ -53,6 +53,10 @@ header nav a:hover {
   width: 100%;
 }
 
+.logo {
+  width: 50%;
+}
+
 .pricing {
   background-color: #226863;
   border-radius: 10px;
